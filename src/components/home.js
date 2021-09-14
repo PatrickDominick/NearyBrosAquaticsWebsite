@@ -23,7 +23,7 @@ export default function home(props) {
 
                 <div className="center-column">
                     <div className="banner-image">
-                        <img src="https://i.postimg.cc/65M9H8BF/Logo-name.png" alt="logo" />
+                        <img src="https://i.postimg.cc/134ybytX/Logo-name-larger.png" alt="logo" />
                     </div>
                     <div className="links-wrapper">
                     
@@ -36,7 +36,7 @@ export default function home(props) {
                         </div>
 
                         <div className="nav-link"> 
-                            <a href="/stockList">Stock List</a>
+                            <a href="/stock-list">Stock List</a>
                         </div>
 
                         <div className="nav-link">
@@ -124,19 +124,19 @@ export default function home(props) {
                 <div className="links-wrapper">
                                 
                     <div className="nav-link">
-                        <a href="index.html">Home</a>
+                        <a href="/">Home</a>
                     </div>
 
                     <div className="nav-link">
-                        <a href="about.html">About</a>
+                        <a href="/about">About</a>
                     </div>
 
                     <div className="nav-link"> 
-                        <a href="Stock List.html">Stock List</a>
+                        <a href="/stock-list">Stock List</a>
                     </div>
 
                     <div className="nav-link">
-                        <a href="contact.html">Contact</a>
+                        <a href="/contact">Contact</a>
                     </div>
                 </div>
 
@@ -157,9 +157,7 @@ export default function home(props) {
 
                 <div className="copyright-wrapper">
                     &copy; 2021 NearyBrothersAquatics &#124; All rights reserved
-                </div>
-
-    
+                </div>   
             </div>
         </div>
     )
