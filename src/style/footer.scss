@@ -1,0 +1,60 @@
+.footer {
+    background-color: $primaryDark;
+    color: $secondaryDark;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+
+    .logo {
+
+        img {
+            width: 300px;
+            height: 100%;
+        }
+    }
+
+    .footer-phone-hours {
+
+        span {
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 1em;
+            letter-spacing: 2px;
+        }
+
+        .hours {
+            font-size: .8em;
+            color: $darkGreen;
+            text-transform: uppercase;
+        }
+    }
+
+    .links-wrapper {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 400px;
+    }
+
+    .social-media-icons-wrapper {
+        font-size: 1.5em;
+        color: $secondaryDark;
+        transition: .5s;
+
+        a {
+
+            &:hover {
+                color: $darkGreen;
+            }
+        }
+    }
+
+    .copyright-wrapper {
+        font-size: 1.5em;
+        color: $secondaryDark;
+        transition: .5s;
+    }
+}

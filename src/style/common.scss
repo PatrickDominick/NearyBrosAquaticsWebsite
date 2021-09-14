@@ -1,0 +1,117 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.navigation-wrapper {
+    height: 190px;
+    background-color: $primaryDark;
+    color:$secondaryDark;
+    /* Flexbox container */
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+    padding: 65px 100px;
+
+    .left-column {
+        display: flex;
+        align-items: center;
+
+        .icon {
+            margin-right: 15px;
+
+            i {
+                font-size: 2em;
+            }
+        }
+
+        .contact-hours-wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+
+            .hours {
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color: $secondaryDark;
+                font-size: 0.8em;
+                font-weight: bolder;
+            }
+        }
+    }
+    
+    .links-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-link {
+            width: 70px;
+            text-align: center;
+
+            a {
+                font-family: 'Ubuntu Condensed', sans-serif;
+                color: $secondaryDark;
+                text-decoration: none;
+                transition: 0.5s;
+
+                &:hover {
+                    color: $darkGreen;
+                    letter-spacing: 2px
+                }
+            }
+        }
+    }
+    
+    .center-column {
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-gap: 1px;
+        width: 500px;
+
+        .banner-image {
+
+            img {
+                width: 419px; 
+                height: 100%;
+            }
+        }
+    }
+
+    .right-column {
+        display:flex;
+        align-items: center;
+
+        .address-wrapper {
+            font-family: 'Ubuntu Condensed', sans-serif;
+            text-align: right;
+
+            a {
+                color: $secondaryDark;
+                text-decoration: none;
+                font-size: 0.9em;
+                transition: 0.5s;
+                font-weight: bolder;
+
+                &:hover {
+                    color: $darkGreen;
+                    font-weight: bolder;
+                }
+            }
+        }
+
+        .contact-icon {
+            margin-left: 15px;
+            font-size: 2em;
+
+            a {
+                color: $secondaryDark;
+                transition: 0.5s;
+                font-weight: bolder;
+
+                &:hover {
+                    color: $darkGreen;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}
