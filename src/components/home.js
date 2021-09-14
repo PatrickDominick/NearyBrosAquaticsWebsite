@@ -46,6 +46,8 @@ export default function home(props) {
                 </div>
 
                 <div className="right-column">
+                    <button className="sign-up-button">Sign Up</button>
+                    <button className="sign-up-button">Log In</button>
                     <div className="address-wrapper">
                         <a href="/contact">
                                 7325 Trimble Dr. <br />
