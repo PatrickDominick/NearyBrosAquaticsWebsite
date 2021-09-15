@@ -36,7 +36,7 @@ export default function home(props) {
                         </div>
 
                         <div className="nav-link"> 
-                            <a href="/stock-list">Stock List</a>
+                            <a href="/stock-list">Stock</a>
                         </div>
 
                         <div className="nav-link">
@@ -46,8 +46,10 @@ export default function home(props) {
                 </div>
 
                 <div className="right-column">
-                    <button className="sign-up-button">Sign Up</button>
-                    <button className="sign-up-button">Log In</button>
+                {/* {this.state.user.id ? <button className="btn" onClick={this.props.handleLogout}>Logout</button> :                        */}
+                    <button className="btn" onClick={() => props.history.push("/sign-up")}>Sign Up</button>
+                    <button className="btn" onClick={() => props.history.push("/login-form")}>Log In</button>
+                    
                     <div className="address-wrapper">
                         <a href="/contact">
                                 7325 Trimble Dr. <br />
@@ -134,7 +136,7 @@ export default function home(props) {
                     </div>
 
                     <div className="nav-link"> 
-                        <a href="/stock-list">Stock List</a>
+                        <a href="/stock-list">Stock</a>
                     </div>
 
                     <div className="nav-link">

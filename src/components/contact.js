@@ -1,6 +1,15 @@
 import React from 'react'
+import emailjs from "emailjs-com"
 
 export default function contact(props) {
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm("service_5xus7sn", "template_aqto6xc", e.target, "user_XmVRJ4snvOeb3UJlvluDS")
+        .then((result) => {
+            console.log(result.text); window.location.reload()
+        }).catch(error => console.log("You have an error in user message submit" , error))
+    }
     return (
         <div className="contact-wrapper">
             <div className="skewed-header">
@@ -24,7 +33,7 @@ export default function contact(props) {
                             </div>
                     
                             <div className="nav-link"> 
-                                <a href="/stock-list">Stock List</a>
+                                <a href="/stock-list">Stock</a>
                             </div>
                     
                             <div className="nav-link">
@@ -71,28 +80,28 @@ export default function contact(props) {
                         </div>
                     </div>
 
-                        <div className="form">
+                        <form className="form" onSubmit={sendEmail}>
                             <div className="form-group">
-                            <input type="text" id="FullName" placeholder="Your name"/>
-                            <label for="FullName">Your name</label>
-                            </div>
-
-                            <div class="form-group">
-                                <input type="email" id="email" placeholder="Your email"/>
-                            <label for="email">Your email</label>
+                            <input type="text" name="name" id="FullName" placeholder="Your name"/>
+                            <label htmlFor="FullName">Your name</label>
                             </div>
 
                             <div className="form-group">
-                                <textarea name="messagem" id="message" placeholder="Message"></textarea>
-                            <label for="message">Message</label>
+                                <input type="email" name="email" id="email" placeholder="Your email"/>
+                            <label htmlFor="email">Your email</label>
+                            </div>
+
+                            <div className="form-group">
+                                <textarea name="message" name="message" id="message" placeholder="Message"></textarea>
+                            <label htmlFor="message">Message</label>
                             </div>
 
                             <div className="spacer10"></div>
 
                             <div className="centered-btn-wrapper">
-                                <button type="submit" className="btn">Send</button>
+                                <button type="submit" className="btn" value="Send">Send</button>
                             </div>
-                        </div>
+                        </form>
 
                     
                 </div>
@@ -125,7 +134,7 @@ export default function contact(props) {
                     </div>
 
                     <div className="nav-link"> 
-                        <a href="/stock-list">Stock List</a>
+                        <a href="/stock-list">Stock</a>
                     </div>
 
                     <div className="nav-link">

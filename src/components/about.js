@@ -24,7 +24,7 @@ export default function about(props) {
                             </div>
                     
                             <div className="nav-link"> 
-                                <a href="/stock-list">Stock List</a>
+                                <a href="/stock-list">Stock</a>
                             </div>
                     
                             <div className="nav-link">
@@ -94,7 +94,7 @@ export default function about(props) {
                     </div>
 
                     <div className="nav-link"> 
-                        <a href="/stock-list">Stock List</a>
+                        <a href="/stock-list">Stock</a>
                     </div>
 
                     <div className="nav-link">

@@ -7,6 +7,8 @@
     border-radius: 2px;
     outline: none;
     transition: .3s;
+    pointer-events: stroke;
+    cursor: pointer;
 
     &:active {
         box-shadow: 5px 5px 30px rgba(0, 0, 0, .4);

@@ -12,8 +12,8 @@ export default function signup(props) {
     return (
         <div className="signup-wrapper">
             <SignupForm changeRoute={props.history.push} handleSetUser={props.handleSetUser} />
-            <p>Don't have an account?</p>
-            <button onClick={() => props.history.push("/")}>Login</button>
+            <p>Have an account?</p>
+            <button className="btn" onClick={() => props.history.push("/login-form")}>Login</button>
         </div>
     )
 }

@@ -44,7 +44,7 @@ export default class LoginForm extends Component {
               } else {
                 this.props.handleSetUser(data);
                 Cookies.set("username", this.state.username);
-                this.props.changeRoute("/rules");
+                this.props.changeRoute("/");
               }
             })
             .catch((error) => {

@@ -5,10 +5,11 @@ import axios from "axios";
 
 
 import Home from './home';
-import signup from './sign-up';
+import Signup from './sign-up';
 import About from './about';
 import Contact from './contact';
 import StockList from './stock-list';
+import LoginForm from './login-form';
 
 
 export default class App extends Component {
@@ -56,12 +57,22 @@ export default class App extends Component {
   }
   render() {
     return (
-      <Switch>
-        <Route exact path="/" render={props => <Home {...props} handleSetUser={this.handleSetUser} />}  />
+      <div className="app-wrapper">
+        {this.state.user.id ? <button className="btn" onClick={this.handleLogout}>Logout</button> : null}
+      {this.state.loading 
+        ?
+        <h1>Loading...</h1>
+        :       
+        <Switch>
+        <Route exact path="/" render={props => <Home {...props} handleSetUser={this.handleSetUser} handleLogout={this.handleLogout} />}  />
+        <Route path="/sign-up" render={props => <Signup {...props} handleSetUser={this.handleSetUser} />} />
+        <Route path="/login-form" render={props => <LoginForm {...props} handleSetUser={this.handleSetUser} />} />
         <Route path="/about" render={props => <About {...props} user={this.state.user} handleSetUser={this.handleSetUser} handleSetError={this.handleSetError} />} />
         <Route path="/contact" render={props => <Contact {...props} user={this.state.user} handleSetUser={this.handleSetUser} handleSetError={this.handleSetError} />} />
         <Route path="/stock-list" render={props => <StockList {...props} user={this.state.user} handleSetUser={this.handleSetUser} handleSetError={this.handleSetError} />} />
-      </Switch>
+      </Switch>}
+      <p>{this.state.error}</p>
+      </div>
     );
   }
 }
