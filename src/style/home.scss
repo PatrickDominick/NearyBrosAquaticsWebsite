@@ -47,6 +47,18 @@
                 border-radius: 10px;
                 transition: 1s;
 
+                a {
+                    font-family: 'Ubuntu Condensed', sans-serif;
+                    color: $primaryDark;
+                    text-decoration: none;
+                    transition: 0.5s;
+    
+                    &:hover {
+                        color: $darkGreen;
+                        letter-spacing: 2px;
+                    }
+                }
+
                 &:hover {
                     border-bottom: 5px $primaryDark
                 }

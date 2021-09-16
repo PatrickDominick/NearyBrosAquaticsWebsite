@@ -171,6 +171,10 @@ export default function stockList(props) {
                         <i className="fab fa-facebook-f"></i>
                     </a>
 
+                    <a href="https://www.youtube.com/channel/UCkbk4nEa2ox3L7H1t1-ofDg" target="_blank">
+                        <i className="fab fa-youtube"></i>
+                    </a>
+
                 </div>
 
                 <div className="copyright-wrapper">

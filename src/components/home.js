@@ -6,18 +6,18 @@ export default function home(props) {
             <div className="navigation-wrapper">
 
                 <div className="left-column">
-                    <div className="icon">
+                    <a href="/contact" className="icon">
                         <i className="fas fa-phone-volume"></i>
-                    </div>
+                    </a>
 
                     <div className="contact-hours-wrapper">
-                        <div className="phone">
+                        <a href="/contact" className="phone">
                             405 301 7945
-                        </div>
+                        </a>
 
-                        <div className="hours">
+                        <a href="/contact" className="hours">
                             10 AM - 8 PM by appointment only
-                        </div>
+                        </a>
                     </div>
                 </div>
 
@@ -76,34 +76,41 @@ export default function home(props) {
             <div className="features-section">
                 <div className="columns-wrapper">
                     <div className="column">
-                        <i className="fas fa-truck"></i>
-                        <p>We Ship!</p>
-                        
-                        <p>
+                        <a href="/stock-list"><i className="fas fa-truck"></i></a>
+                        <br />
+                        <a href="/stock-list">We ship!</a>
+                        <br />
+                        <a href="/stock-list">
                             Some items available for delivery!
-                        </p>
+                        </a>
                     </div>
                 </div>
 
                 <div className="columns-wrapper">
                     <div className="column">
-                        <i className="fas fa-fish"></i>
-                        <p>Order List</p>
-                        
-                        <p>
-                            Stock List
-                        </p>
+                        <a href="/stock-list"><i className="fas fa-fish"></i></a>
+                        <br />
+                        <a href="/stock-list">Fish, Plants, Inverts!</a>
+                        <br />
+                        <a href="/stock-list">
+                            Stock List!
+                        </a>
                     </div>
                 </div>
 
                 <div className="columns-wrapper">
                     <div className="column">
-                        <i className="fab fa-youtube"></i>
-                        <p>Videos</p>
-                        
-                        <p>
-                            YouTube channel
-                        </p>
+                        <a href="https://www.youtube.com/channel/UCkbk4nEa2ox3L7H1t1-ofDg" target="_blank">
+                            <i className="fab fa-youtube"></i>
+                        </a>
+                        <br />
+                        <a href="https://www.youtube.com/channel/UCkbk4nEa2ox3L7H1t1-ofDg" target="_blank">
+                            Videos
+                        </a>
+                        <br />
+                        <a href="https://www.youtube.com/channel/UCkbk4nEa2ox3L7H1t1-ofDg" target="_blank">
+                            YouTube Channel
+                        </a>
                     </div>
                 </div>
             </div>
@@ -145,16 +152,20 @@ export default function home(props) {
                 </div>
 
                 <div className="social-media-icons-wrapper">
-                    <a href="#">
+                    <a href="https://www.instagram.com/nearybrosaquatics/" target="_blank">
                         <i className="fab fa-instagram"></i>
                     </a>
 
-                    <a href="#">
+                    <a href="https://twitter.com/NearyAquatics" target="_blank">
                         <i className="fab fa-twitter"></i>
                     </a>
 
-                    <a href="#">
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ffb.me%2FNearyBrosAquatics&h=AT0tUKhYuKznpxRwcMZJNPsksYMUpuJUjrN3mZVashujQ7biIkZoHCgoJMG2QbEYBTAnGZEfz9TvkZlGNGsagyYY4WUjZzmt1V5lyDhy5b9Pl3K7IB8ZQslEsf2kw5BLVg" target="_blank">
                         <i className="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCkbk4nEa2ox3L7H1t1-ofDg" target="_blank">
+                        <i className="fab fa-youtube"></i>
                     </a>
 
                 </div>

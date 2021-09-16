@@ -28,7 +28,7 @@
 
         .hours {
             font-size: .8em;
-            color: $darkGreen;
+            color: white;
             text-transform: uppercase;
         }
     }
@@ -45,6 +45,7 @@
         transition: .5s;
 
         a {
+            color: white;
 
             &:hover {
                 color: $lightGreen;
