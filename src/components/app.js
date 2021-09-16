@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRoter as Router, Switch, Route } from "react-router-dom";
 import Cookies from 'js-cookie';
-import axios from "axios";
 
 
 import Home from './home';
@@ -66,7 +65,7 @@ export default class App extends Component {
         <Switch>
         <Route exact path="/" render={props => <Home {...props} handleSetUser={this.handleSetUser} handleLogout={this.handleLogout} />}  />
         <Route path="/sign-up" render={props => <Signup {...props} handleSetUser={this.handleSetUser} />} />
-        <Route path="/login-form" render={props => <LoginForm {...props} handleSetUser={this.handleSetUser} />} />
+        <Route path="/login-form" render={props => <LoginForm {...props} handleSetUser={this.handleSetUser} handleLogout={this.handleLogout}/>} />
         <Route path="/about" render={props => <About {...props} user={this.state.user} handleSetUser={this.handleSetUser} handleSetError={this.handleSetError} />} />
         <Route path="/contact" render={props => <Contact {...props} user={this.state.user} handleSetUser={this.handleSetUser} handleSetError={this.handleSetError} />} />
         <Route path="/stock-list" render={props => <StockList {...props} user={this.state.user} handleSetUser={this.handleSetUser} handleSetError={this.handleSetError} />} />

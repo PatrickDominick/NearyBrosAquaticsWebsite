@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cookies from 'js-cookie';
+import { Link } from 'react-router-dom';
 
 export default class LoginForm extends Component {
     constructor(props) {
@@ -110,6 +111,8 @@ export default class LoginForm extends Component {
               <button type="submit" className="btn" disabled={this.state.loading}>Login</button>
               {this.state.loading ? <img src="https://i.postimg.cc/6QyYqz2V/loading-angelfish.gif" /> :  <div className="spacer" />}
               <p>{this.state.error}</p>
+              <h3>Don't have an account?</h3>
+              <Link to="/sign-up"><button className="btn" >Sign Up</button></Link>
               <div className="footer">
                 <div className="logo">
                   <img src="https://i.postimg.cc/134ybytX/Logo-name-larger.png" alt="Logo"/>

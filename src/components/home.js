@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Cookies from 'js-cookie';
 
 export default function home(props) {
     return (
@@ -46,9 +47,8 @@ export default function home(props) {
                 </div>
 
                 <div className="right-column">
-                {/* {this.state.user.id ? <button className="btn" onClick={this.props.handleLogout}>Logout</button> :                        */}
-                    <button className="btn" onClick={() => props.history.push("/sign-up")}>Sign Up</button>
-                    <button className="btn" onClick={() => props.history.push("/login-form")}>Log In</button>
+                {Cookies.get("name") ? <button className="btn" onClick={this.handleLogout}>Logout</button> :                       
+                    <button className="btn" onClick={() => props.history.push("/login-form")}>Log In</button>}
                     
                     <div className="address-wrapper">
                         <a href="/contact">
