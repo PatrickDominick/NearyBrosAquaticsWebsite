@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './footer'
 
 export default function about(props) {
     return (
@@ -38,8 +39,8 @@ export default function about(props) {
             <div className="page-container">
                 <div className="content-wrapper">
                     <img src="https://i.postimg.cc/52GfVDY3/Big-Blue-Tank.jpg" alt="Featured Tank" id="BigBlueTank" width="25%"/>
-                    <p>Hello! I'm Patrick Neary, creator of Neary Brothers Aquatics! My brothers aren't really involved but if they ever want to be, the name is ready! I have been keeping fish since I was 12 years old. It's been a dream of mine to one day have a fish room. Now I'm living that dream! I researched a lot of fish rooms and built my first one after framing in half of my parents' garage. Here are some pictures of that if you're interested. <a href="https://www.facebook.com/media/set/?set=a.503862638677&type=3" target="_blank">First Fish Room!</a> It was running when I was in Seminary. I would come back up regularly and take care of a few things, but my parents fed the fish and bred some angels while I was in school. Then an ice-storm came and that was the end of that first fish room. </p>
-                    <p>After I bought a place in Fort Worth I had a sun room built with plans to make it a fish room. After reading up on aquaponics and seeing how various plants could filter the water for large food fish like tilapia, catfish, and trout, I thought surely these plants could filter water for the pretty little aquarium fish I like to keep. I had an unintentional small setup already after placing a potted pothos ivy plant at the top of a fish tank in my room because I didn't want to bother watering it. The tank was by a window and the pothos grew like crazy! It had leaves bigger than my hand. So after scouring the internet looking for something linking aquaponics with aquariums, I found very few examples and the setups were small. So after a lot of research on regular systems, thinking, and planning, I built 2 1000 gallons system of tanks with a cut IBC tote with a grown bed that has a fill and drain siphon as my sump and have water pumped from there to all the tanks, draining back to the sump through gutters. Then I put it on YouTube so others could see the results!</p>
+                    <p className="about-us-text">Hello! I'm Patrick Neary, creator of Neary Brothers Aquatics! My brothers aren't really involved but if they ever want to be, the name is ready! I have been keeping fish since I was 12 years old. It's been a dream of mine to one day have a fish room. Now I'm living that dream! I researched a lot of fish rooms and built my first one after framing in half of my parents' garage. Here are some pictures of that if you're interested. <a href="https://www.facebook.com/media/set/?set=a.503862638677&type=3" target="_blank">First Fish Room!</a> It was running when I was in Seminary. I would come back up regularly and take care of a few things, but my parents fed the fish and bred some angels while I was in school. Then an ice-storm came and that was the end of that first fish room. </p>
+                    <p className="about-us-text">After I bought a place in Fort Worth I had a sun room built with plans to make it a fish room. After reading up on aquaponics and seeing how various plants could filter the water for large food fish like tilapia, catfish, and trout, I thought surely these plants could filter water for the pretty little aquarium fish I like to keep. I had an unintentional small setup already after placing a potted pothos ivy plant at the top of a fish tank in my room because I didn't want to bother watering it. The tank was by a window and the pothos grew like crazy! It had leaves bigger than my hand. So after scouring the internet looking for something linking aquaponics with aquariums, I found very few examples and the setups were small. So after a lot of research on regular systems, thinking, and planning, I built 2 1000 gallons system of tanks with a cut IBC tote with a grown bed that has a fill and drain siphon as my sump and have water pumped from there to all the tanks, draining back to the sump through gutters. Then I put it on YouTube so others could see the results!</p>
                 </div>
             </div>
             <div className="spacer60"></div>
@@ -53,14 +54,14 @@ export default function about(props) {
 
                         <div className="square-text-wrapper">
                             <h1>I call this my triforce tank.</h1>
-                            <p>It's a stack of 3 tanks, a 60 gallon on top with a 75 gallon footprint, just shorter (I love that tank) and 2 72 gallon bowfronts. It also has a 30 gallon plastic tote on the side. Water is pumped from the bottom 72 gallon to the top 60, then gravity takes it back down to the middle level 72 gallon tank and plastic tote, then on back down to the bottom 72 gallon tank. Note the air is pumped using USB pumps!</p>
+                            <p className="about-us-text">It's a stack of 3 tanks, a 60 gallon on top with a 75 gallon footprint, just shorter (I love that tank) and 2 72 gallon bowfronts. It also has a 30 gallon plastic tote on the side. Water is pumped from the bottom 72 gallon to the top 60, then gravity takes it back down to the middle level 72 gallon tank and plastic tote, then on back down to the bottom 72 gallon tank. Note the air is pumped using USB pumps!</p>
                         </div>
                     </div>             
                
                     <div className="square">
                         <div className="square-text-wrapper">
                             <h1>The Fish Room / Sun Room / Aquaponics Room in all its glory!</h1>
-                            <p>The path down the middle seperates the two 1000 gallon systems, each with their own cut ibc tote as a sump. The smaller pvc running around the room carries the air to all the tanks. The larger pvc running around each side carries the water from the sumps to the top tanks. Gravity takes care of the rest. Note the jungle of pothos ivy growing everywhere! It keeps the water pristine for the fish!</p>
+                            <p className="about-us-text">The path down the middle seperates the two 1000 gallon systems, each with their own cut ibc tote as a sump. The smaller pvc running around the room carries the air to all the tanks. The larger pvc running around each side carries the water from the sumps to the top tanks. Gravity takes care of the rest. Note the jungle of pothos ivy growing everywhere! It keeps the water pristine for the fish!</p>
                         </div>
 
                         <div className="img-wrapper">
@@ -69,62 +70,7 @@ export default function about(props) {
                     </div>
                 </div>             
             </div>
-            <div className="footer">
-                <div className="logo">
-                    <img src="https://i.postimg.cc/134ybytX/Logo-name-larger.png" alt="Logo"/>
-                </div>
-
-                <div className="footer-phone-hours">
-                    <span className="phone">
-                        405 301 7945
-                    </span>
-
-                    <span className="hours">
-                        10 am - 8 pm by appointment only
-                    </span>
-                </div>
-
-                <div className="links-wrapper">                               
-                    <div className="nav-link">
-                        <a href="/">Home</a>
-                    </div>
-
-                    <div className="nav-link">
-                        <a href="/about">About</a>
-                    </div>
-
-                    <div className="nav-link"> 
-                        <a href="/stock-list">Stock</a>
-                    </div>
-
-                    <div className="nav-link">
-                        <a href="/contact">Contact</a>
-                    </div>
-                </div>
-
-                <div className="social-media-icons-wrapper">
-                    <a href="#">
-                        <i className="fab fa-instagram"></i>
-                    </a>
-
-                    <a href="#">
-                        <i className="fab fa-twitter"></i>
-                    </a>
-
-                    <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                    </a>
-
-                    <a href="https://www.youtube.com/channel/UCkbk4nEa2ox3L7H1t1-ofDg" target="_blank">
-                        <i className="fab fa-youtube"></i>
-                    </a>
-
-                </div>
-
-                <div className="copyright-wrapper">
-                    &copy; 2021 NearyBrothersAquatics &#124; All rights reserved
-                </div>              
-            </div>
+            <Footer />
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Cookies from 'js-cookie';
+import Footer from './footer';
 
 export default function home(props) {
     const user = useState({})
@@ -48,10 +48,6 @@ export default function home(props) {
                 </div>
 
                 <div className="right-column">
-                {/* {Cookies.get("nothing") ? <button className="btn" onClick={() => props.history.push("/login-form")}>Log In</button> : 
-                    null                    
-                    } */}
-                    
                     <div className="address-wrapper">
                         <a href="/contact">
                                 7325 Trimble Dr. <br />
@@ -119,63 +115,7 @@ export default function home(props) {
             <div>
                 <iframe className="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.733003544026!2d-97.33416118497419!3d32.639932981013686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e6e6025dc9873%3A0x813b5a6923f9c432!2s7325%20Trimble%20Dr%2C%20Fort%20Worth%2C%20TX%2076134!5e0!3m2!1sen!2sus!4v1622932905628!5m2!1sen!2sus" allowFullScreen="" loading="lazy"></iframe>
             </div>
-            <div className="footer">
-                <div className="logo">
-                    <img src="https://i.postimg.cc/65M9H8BF/Logo-name.png" alt="logo" />
-                </div>
-
-                <div className="footer-phone-hours">
-                    <span className="phone">
-                        405 301 7945
-                    </span>
-
-                    <span className="hours">
-                        10 am - 8 pm by appointment only
-                    </span>
-                </div>
-
-                <div className="links-wrapper">
-                                
-                    <div className="nav-link">
-                        <a href="/">Home</a>
-                    </div>
-
-                    <div className="nav-link">
-                        <a href="/about">About</a>
-                    </div>
-
-                    <div className="nav-link"> 
-                        <a href="/stock-list">Stock</a>
-                    </div>
-
-                    <div className="nav-link">
-                        <a href="/contact">Contact</a>
-                    </div>
-                </div>
-
-                <div className="social-media-icons-wrapper">
-                    <a href="https://www.instagram.com/nearybrosaquatics/" target="_blank">
-                        <i className="fab fa-instagram"></i>
-                    </a>
-
-                    <a href="https://twitter.com/NearyAquatics" target="_blank">
-                        <i className="fab fa-twitter"></i>
-                    </a>
-
-                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ffb.me%2FNearyBrosAquatics&h=AT0tUKhYuKznpxRwcMZJNPsksYMUpuJUjrN3mZVashujQ7biIkZoHCgoJMG2QbEYBTAnGZEfz9TvkZlGNGsagyYY4WUjZzmt1V5lyDhy5b9Pl3K7IB8ZQslEsf2kw5BLVg" target="_blank">
-                        <i className="fab fa-facebook-f"></i>
-                    </a>
-
-                    <a href="https://www.youtube.com/channel/UCkbk4nEa2ox3L7H1t1-ofDg" target="_blank">
-                        <i className="fab fa-youtube"></i>
-                    </a>
-
-                </div>
-
-                <div className="copyright-wrapper">
-                    &copy; 2021 NearyBrothersAquatics &#124; All rights reserved
-                </div>   
-            </div>
+            <Footer />
         </div>
     )
 }

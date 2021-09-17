@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './footer'
 
 export default function stockList(props) {
     return (
@@ -39,7 +40,7 @@ export default function stockList(props) {
                 <div className="squares">
                     <div className="square">
                         <div className="img-wrapper">
-                            <img src="https://i.postimg.cc/vH2srCzs/Triforce-tank.png" alt="Triforce Tank" width="25%" height="25%"/>
+                            <img src="https://i.postimg.cc/CLKzw1V0/Neon-Tetra.jpg" alt="Neon Tetra" width="25%" height="25%"/>
                         </div>
 
                         <div className="square-text-wrapper">
@@ -50,10 +51,9 @@ export default function stockList(props) {
                             <ul>
                                 <li>$4 Odessa Barb</li>
                                 <li>$3 Reg Bristlenose Pleco</li>
-                                <li>$3 Super Red Calico Pleco</li>
-                                <li>$5 Super Red Pleco</li>
                                 <li>$1 Fancy Guppy</li>
-                                <li>$2 Jewel Cichlid</li>
+                                <li>$3 Heteradria formosa aka Least Killifish(not really a killifish)</li>
+                                <li>$1 Jewel Cichlid</li>
                                 <li>$5 Australian Rainbow</li>
                                 <li>$2 Neon Tetra</li>
                                 <li>$6 Silver Angelfish</li>
@@ -73,13 +73,12 @@ export default function stockList(props) {
                                 <li>$1 Cherry Shrimp</li>
                                 <li>$4 Blue Neo Shrimp</li>
                                 <li>Scuds free to in-person customers</li>
-                                <li>$5 daphnia 1 cup</li>
                                 <li>Pond, mts, ramhorn snails free to in-person customers</li>
                             </ul>
                         </div>
 
                         <div className="img-wrapper">
-                            <img src="https://i.postimg.cc/bvtpNL1j/Fish-Room-1-9.png" alt="FishRoom1-9" width="25%" height="25%"/>
+                            <img src="https://i.postimg.cc/TY7PyBVd/Blue-neocardinia-shrimp.jpg" alt="Blue Shrimp" width="25%" height="25%"/>
                         </div>
                     </div>
 
@@ -125,62 +124,7 @@ export default function stockList(props) {
                     </div>
                 </div>               
             </div>
-            <div className="footer">
-                <div className="logo">
-                    <img src="https://i.postimg.cc/134ybytX/Logo-name-larger.png" alt="Logo"/>
-                </div>
-
-                <div className="footer-phone-hours">
-                    <span className="phone">
-                        405 301 7945
-                    </span>
-
-                    <span className="hours">
-                        10 am - 8 pm by appointment only
-                    </span>
-                </div>
-
-                <div className="links-wrapper">                               
-                    <div className="nav-link">
-                        <a href="/">Home</a>
-                    </div>
-
-                    <div className="nav-link">
-                        <a href="/about">About</a>
-                    </div>
-
-                    <div className="nav-link"> 
-                        <a href="/stock-list">Stock</a>
-                    </div>
-
-                    <div className="nav-link">
-                        <a href="/contact">Contact</a>
-                    </div>
-                </div>
-
-                <div className="social-media-icons-wrapper">
-                    <a href="#">
-                        <i className="fab fa-instagram"></i>
-                    </a>
-
-                    <a href="#">
-                        <i className="fab fa-twitter"></i>
-                    </a>
-
-                    <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                    </a>
-
-                    <a href="https://www.youtube.com/channel/UCkbk4nEa2ox3L7H1t1-ofDg" target="_blank">
-                        <i className="fab fa-youtube"></i>
-                    </a>
-
-                </div>
-
-                <div className="copyright-wrapper">
-                    &copy; 2021 NearyBrothersAquatics &#124; All rights reserved
-                </div>              
-            </div>
+            <Footer />
         </div>
     )
 }

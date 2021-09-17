@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
 
+li {
+    color: white;
+}
+
 .navigation-wrapper {
     height: 190px;
     background-color: $primaryDark;
@@ -71,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
                 font-weight: bolder;
 
                 &:hover {
-                    color: $darkGreen;
+                    color: $lightGreen;
                     font-weight: bolder;
                 }
             }
@@ -87,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
                 font-weight: bolder;
 
                 &:hover {
-                    color: $darkGreen;
+                    color: $lightGreen;
                     font-weight: bolder;
                 }
             }

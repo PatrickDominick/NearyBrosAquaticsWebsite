@@ -1,0 +1,38 @@
+.about-wrapper {
+
+    .page-container {
+
+        .content-wrapper {
+
+            .about-us-text {
+                color: white;
+            }
+
+            a {
+                color: white;
+                font-style: italic;
+
+                &:hover {
+                    color: $lightGreen;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+
+    .squares-wrapper {
+
+        .squares {
+
+            .square {
+
+                .square-text-wrapper {
+
+                    .about-us-text {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
