@@ -36,15 +36,15 @@ export default function footer (props) {
                 </div>
 
                 <div className="social-media-icons-wrapper">
-                    <a href="#">
+                    <a href="https://www.instagram.com/nearybrosaquatics/?utm_medium=copy_link" target="blank">
                         <i className="fab fa-instagram"></i>
                     </a>
 
-                    <a href="#">
+                    <a href="https://twitter.com/NearyAquatics" target="blank">
                         <i className="fab fa-twitter"></i>
                     </a>
 
-                    <a href="#">
+                    <a href="https://www.facebook.com/NearyBrosAquatics/?ref=pages_you_manage" target="_blank">
                         <i className="fab fa-facebook-f"></i>
                     </a>
 
