@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRoter as Router, Switch, Route } from "react-router-dom";
 import Cookies from 'js-cookie';
+import { Link } from "react-router-dom";
 
 
 import Home from './home';
@@ -57,7 +58,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="app-wrapper">
-        {this.state.user.id ? <button className="btn" onClick={this.handleLogout}>Logout</button> : null}
+        {this.state.user.id ? <button className="btn" onClick={this.handleLogout}>Logout</button> : <Link to="/login-form"><button className="btn" >Log In/Sign Up</button></Link>}
       {this.state.loading 
         ?
         <h1>Loading...</h1>
@@ -65,7 +66,7 @@ export default class App extends Component {
         <Switch>
         <Route exact path="/" render={props => <Home {...props} handleSetUser={this.handleSetUser} handleLogout={this.handleLogout} />}  />
         <Route path="/sign-up" render={props => <Signup {...props} handleSetUser={this.handleSetUser} />} />
-        <Route path="/login-form" render={props => <LoginForm {...props} handleSetUser={this.handleSetUser} handleLogout={this.handleLogout}/>} />
+        <Route path="/login-form" render={props => <LoginForm changeRoute={props.history.push} {...props} handleSetUser={this.handleSetUser} handleLogout={this.handleLogout}/>} />
         <Route path="/about" render={props => <About {...props} user={this.state.user} handleSetUser={this.handleSetUser} handleSetError={this.handleSetError} />} />
         <Route path="/contact" render={props => <Contact {...props} user={this.state.user} handleSetUser={this.handleSetUser} handleSetError={this.handleSetError} />} />
         <Route path="/stock-list" render={props => <StockList {...props} user={this.state.user} handleSetUser={this.handleSetUser} handleSetError={this.handleSetError} />} />

@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Cookies from 'js-cookie';
 
 export default function home(props) {
+    const user = useState({})
     return (
         <div className="home-wrapper">          
             <div className="navigation-wrapper">
@@ -47,8 +48,9 @@ export default function home(props) {
                 </div>
 
                 <div className="right-column">
-                {Cookies.get("name") ? <button className="btn" onClick={this.handleLogout}>Logout</button> :                       
-                    <button className="btn" onClick={() => props.history.push("/login-form")}>Log In</button>}
+                {/* {Cookies.get("nothing") ? <button className="btn" onClick={() => props.history.push("/login-form")}>Log In</button> : 
+                    null                    
+                    } */}
                     
                     <div className="address-wrapper">
                         <a href="/contact">
