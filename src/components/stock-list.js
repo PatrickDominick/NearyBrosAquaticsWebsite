@@ -56,7 +56,7 @@ export default function stockList(props) {
                                 <li>$1 Jewel Cichlid</li>
                                 <li>$5 Australian Rainbow</li>
                                 <li>$2 Neon Tetra</li>
-                                <li>$6 Silver Angelfish</li>
+                                <li>$20 Adult Silver Angelfish</li>
                                 <li>$5 Red Shiner</li>
                             </ul>
                         </div>
