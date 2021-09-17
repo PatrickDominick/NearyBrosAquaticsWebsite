@@ -1,0 +1,100 @@
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+
+        .left-column {
+            order: 2;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        .center-column {
+            order: 1;
+            width: 100%;
+        }
+
+        .right-column {
+            order: 3;
+            margin-top: 15px;
+        }
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        .nav-link {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            width: 100%
+        }
+    }
+
+    .fish-section {
+        padding: 50px 10px;
+
+        .columns-wrapper {
+            width: 100%;
+            flex-direction: column;
+        }
+    }
+    
+    .footer {
+        height: 100%;
+    }
+
+    .skewed-header {
+
+        .skewed-header-wrapper {
+
+            .skewed-header-content {
+                flex-direction: column;
+            }
+        }
+
+        .header-bg {
+            background-size: 550px;
+        }
+    }
+
+    .page-container {
+        padding-left: 21px;
+        padding-right: 21px;
+
+        .content-wrapper {
+
+            #BigBlueTank {
+                margin: 0px 0px 25px 0px;
+                width: 100%;
+            }
+        }
+    }
+
+    .square {
+        grid-template-columns: 1fr !important;
+
+        .square-text-wrapper {
+            order: 1;
+        }
+
+        .img-wrapper {
+            order: 2;
+        }
+    }
+
+    .contact-grid-wrapper {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .form input {
+        padding: 1.5rem 0rem;
+    }
+
+    .form textarea {
+        padding: 1.5rem 0rem;
+    }
+}
