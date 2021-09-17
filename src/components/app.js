@@ -25,7 +25,7 @@ export default class App extends Component {
 
   componentDidMount() {
     if (Cookies.get("username")) {
-      fetch(`http://127.0.0.1:5000/user/get/${Cookies.get("username")}`)
+      fetch(`https://nearybrosaquatics-api.herokuapp.com/user/get/${Cookies.get("username")}`)
       .then(response => response.json())
       .then(data => {
         this.setState({ 

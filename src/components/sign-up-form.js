@@ -34,7 +34,7 @@ export default class SignupForm extends Component {
             error: "",
           });
     
-          fetch("http://127.0.0.1:5000/user/add", {
+          fetch("https://nearybrosaquatics-api.herokuapp.com/user/add", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({
