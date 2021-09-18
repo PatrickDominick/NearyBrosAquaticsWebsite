@@ -37,9 +37,18 @@
     .fish-section {
         padding: 50px 10px;
 
+        .top-heading {
+
+            h1 {
+                display: none;
+            }
+        }
+
         .columns-wrapper {
-            width: 100%;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            
         }
     }
     
