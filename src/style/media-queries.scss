@@ -2,6 +2,7 @@
     .navigation-wrapper {
         flex-direction: column;
         height: 100%;
+        width: 100vw;
 
         .left-column {
             order: 2;
@@ -23,6 +24,7 @@
     .links-wrapper {
         margin-bottom: 20px;
         height: 20px;
+        width: 100vw;
 
         .nav-link {
             margin-top: 10px;
@@ -30,7 +32,9 @@
             font-size: 1.5em;
             width: 50%
 
-
+            a {
+                width: 20%vw;
+            }
         }
     }
 
@@ -38,6 +42,13 @@
         padding: 50px 10px;
 
         .top-heading {
+
+            h1 {
+                display: none;
+            }
+        }
+
+        .bottom-heading {
 
             h1 {
                 display: none;
