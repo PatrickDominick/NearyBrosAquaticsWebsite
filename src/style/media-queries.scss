@@ -52,21 +52,23 @@
             }
         }
     }
+    .home-wrapper {
 
-    .fish-section {
-        padding: 50px 10px;
+        .fish-section {
+            padding: 50px 10px;
 
-        .top-heading {
+            .top-heading {
 
-            h1 {
-                display: none;
+                h1 {
+                    display: none;
+                }
             }
-        }
 
-        .bottom-heading {
+            .bottom-heading {
 
-            h1 {
-                display: none;
+                h1 {
+                    display: none;
+                }
             }
         }
 
@@ -91,7 +93,8 @@
             }
 
         }
-    }
+        
+    }    
     
     .footer {
         height: 25%;
