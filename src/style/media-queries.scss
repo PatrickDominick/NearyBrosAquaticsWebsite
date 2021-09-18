@@ -13,7 +13,7 @@
 
         .center-column {
             order: 1;
-            width: 33vw;
+            width: 20vw;
 
             .banner-image {
                 width: 80vw;
@@ -77,13 +77,17 @@
 
             .columns-wrapper {
                 margin: 0px;
+                justify-content: none;
 
                 .column {
+                    margin: 22px;
 
-                    a {
-                        font-size: 25px;
+                    .column:nth-child(1){
+    
+                        font-size: 12px;
                     }
                 }
+
             }
 
         }
