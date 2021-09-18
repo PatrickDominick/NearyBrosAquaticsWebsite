@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Footer from './footer';
 
 export default function home(props) {
-    const user = useState({})
     return (
         <div className="home-wrapper">          
             <div className="navigation-wrapper">

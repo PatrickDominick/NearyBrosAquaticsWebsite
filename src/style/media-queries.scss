@@ -1,7 +1,7 @@
 @media (max-width: 615px) {
     .navigation-wrapper {
         flex-direction: column;
-        height: 100%;
+        height: 20%;
         width: 100vw;
 
         .left-column {
@@ -12,7 +12,11 @@
 
         .center-column {
             order: 1;
-            width: 100%;
+            width: 100vw;
+
+            img {
+                width: 80vw;
+            }
         }
 
         .right-column {
@@ -24,7 +28,7 @@
     .links-wrapper {
         margin-bottom: 20px;
         height: 20px;
-        width: 100vw;
+        width: 75vw;
 
         .nav-link {
             margin-top: 10px;
@@ -36,7 +40,8 @@
 
 
             a {
-                width: 20%vw;
+                width: 20vw;
+                font-size: 20px;
             }
         }
     }
@@ -110,7 +115,7 @@
     }
 
     .contact-grid-wrapper {
-        width: 100%;
+        width: 100vw;
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
