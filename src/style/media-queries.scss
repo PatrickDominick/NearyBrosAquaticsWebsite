@@ -30,7 +30,10 @@
             margin-top: 10px;
             margin-bottom: 10px;
             font-size: 1.5em;
-            width: 50%
+            width: 50%;
+            margin-left: 2px;
+            margin-right: 2px;
+
 
             a {
                 width: 20%vw;
@@ -55,7 +58,7 @@
             }
         }
 
-        .columns-wrapper {
+        .features-section {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
 
