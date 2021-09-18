@@ -1,6 +1,5 @@
 @media (max-width: 615px) {
     .navigation-wrapper {
-        flex-direction: column;
         height: 20%;
         width: 100vw;
 
@@ -12,7 +11,7 @@
 
         .center-column {
             order: 1;
-            width: 100vw;
+            width: 33vw;
 
             img {
                 width: 80vw;
@@ -66,8 +65,8 @@
         .features-section {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+            width: 90vw;
 
-            
         }
     }
     
@@ -81,6 +80,7 @@
 
             .skewed-header-content {
                 flex-direction: column;
+                width: 95vw;
             }
         }
 
