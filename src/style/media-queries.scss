@@ -106,6 +106,17 @@
             .skewed-header-content {
                 flex-direction: column;
                 width: 95vw;
+
+                .links-wrapper {
+                    justify-content: space-around;
+
+                    .nav-link {
+
+                        a {
+                            margin-left: -100px;
+                        }
+                    }
+                }
             }
         }
 
@@ -140,9 +151,10 @@
     }
 
     .contact-grid-wrapper {
-        width: 100vw;
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
+        flex-direction: column;
+        width: 100vw !important;
+        grid-template-columns: 1fr !important;
+        grid-gap: 10px !important;
     }
 
     .form input {
