@@ -82,10 +82,10 @@
                 justify-content: none;
 
                 .column {
-                    margin: 0px;
+                    margin: 0px !important;
 
                     &:nth-child(1) {
-                        font-size: 18px;
+                        font-size: 18px !important;
                     }
                 }
 
