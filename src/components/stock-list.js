@@ -69,8 +69,8 @@ export default function stockList(props) {
                                 </a>
 
                             <ul>
-                                <li>$1 Assassin Snail</li>
-                                <li>$1 Cherry Shrimp</li>
+                                <li>$1 Assassin Snail shipping available</li>
+                                <li>$1 Cherry Shrimp shipping available</li>
                                 <li>$4 Blue Neo Shrimp</li>
                                 <li>Scuds free to in-person customers</li>
                                 <li>Pond, mts, ramhorn snails free to in-person customers</li>
@@ -103,11 +103,12 @@ export default function stockList(props) {
                 
                     <div className="square">
                         <div className="square-text-wrapper">
-                            <a href="#Plants" name="Plants" className="anchor-link">
+                            <a href="#Plants" name="Plants" className="anchor-link" id="plants">
                                 <h1>Plants</h1>
                                 </a>
 
                             <ul>
+                                <li>Shipping available for all plants. Contact for more details.</li>
                                 <li>$1 Pothos clipping</li>
                                 <li>$3 Guppy Grass sandwich bag</li>
                                 <li>$3 Hornwort sandwich bag</li>

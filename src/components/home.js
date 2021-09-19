@@ -73,11 +73,11 @@ export default function home(props) {
             <div className="features-section">
                 <div className="columns-wrapper">
                     <div className="column">
-                        <a href="/stock-list"><i className="fas fa-truck"></i></a>
+                        <a href="/stock-list#plants"><i className="fas fa-truck"></i></a>
                         <br />
-                        <a href="/stock-list">We ship!</a>
+                        <a href="/stock-list#plants">We ship!</a>
                         <br />
-                        <a href="/stock-list">
+                        <a href="/stock-list#plants">
                             Some items available for delivery!
                         </a>
                     </div>
