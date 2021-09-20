@@ -15,10 +15,12 @@
 
         .top-heading {
             color: $primaryLight;
+            background: transparentize($color: $lightGreen, $amount: .2);
         }
 
         .bottom-heading {
             color: $secondaryLight;
+            background: transparentize($color: $lightGreen, $amount: .2);
         }
         }
     .features-section {
@@ -46,6 +48,7 @@
                 border-bottom: 5px solid transparent;
                 border-radius: 10px;
                 transition: 1s;
+                background: transparentize($color: $lightGreen, $amount: .2);
 
                 a {
                     font-family: 'Ubuntu Condensed', sans-serif;
