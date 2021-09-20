@@ -43,7 +43,7 @@ export default function about(props) {
                     <p className="about-us-text">After I bought a place in Fort Worth I had a sun room built with plans to make it a fish room. After reading up on aquaponics and seeing how various plants could filter the water for large food fish like tilapia, catfish, and trout, I thought surely these plants could filter water for the pretty little aquarium fish I like to keep. I had an unintentional small setup already after placing a potted pothos ivy plant at the top of a fish tank in my room because I didn't want to bother watering it. The tank was by a window and the pothos grew like crazy! It had leaves bigger than my hand. After scouring the internet looking for something linking aquaponics with aquariums, I found very few examples and the setups were small. So after a lot of research on regular systems, thinking, and planning, I built 2 1000 gallons system of tanks with a cut IBC tote with a grown bed that has a fill and drain siphon as my sump and have water pumped from there to all the tanks, draining back to the sump through gutters. Then I put it on YouTube so others could see the results!</p>
                 </div>
             </div>
-            <div className="spacer60"></div>
+            <div className="60"></div>
 
             <div className="squares-wrapper">
                 <div className="squares">
