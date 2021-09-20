@@ -102,7 +102,7 @@ export default class SignupForm extends Component {
                     </div>
                 </div>
               </div>
-                <div className="login-form-wrapper">
+                <div className="signup-form-wrapper">
                   <input type="text" 
                   placeholder="Username"
                   name="username"
@@ -138,6 +138,7 @@ export default class SignupForm extends Component {
                 <p>{this.state.error}</p>
                 <p>Have an account?</p>
                 <Link to="/login-form"><button className="btn" >Log In/Sign Up</button></Link>
+                <div className="spacer100"/>
                 <Footer />
               </div>
             </form>
