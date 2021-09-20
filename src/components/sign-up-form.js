@@ -138,7 +138,7 @@ export default class SignupForm extends Component {
                 <p>{this.state.error}</p>
                 <p>Have an account?</p>
                 <Link to="/login-form"><button className="btn" >Log In/Sign Up</button></Link>
-                <div className="spacer100">Need space</div>
+                <div className="spacer200">Need space</div>
                 <Footer />
               </div>
             </form>
