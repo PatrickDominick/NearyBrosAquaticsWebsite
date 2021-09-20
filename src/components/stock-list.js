@@ -53,7 +53,7 @@ export default function stockList(props) {
                                 <li>$3 Reg Bristlenose Pleco</li>
                                 <li>$1 Fancy Guppy</li>
                                 <li>
-                                    <a href="https://youtu.be/aZG6oqm32I0" target="_blank">$3 Heteradria formosa aka Least Killifish(not really a killifish)</a>
+                                    <a href="https://youtu.be/aZG6oqm32I0" target="_blank">$3 Heteradria formosa aka Least Killifish (not really a killifish)</a>
                                 </li>
                                 <li>$1 Jewel Cichlid</li>
                                 <li>$5 Australian Rainbow</li>
