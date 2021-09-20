@@ -97,23 +97,25 @@ export default class LoginForm extends Component {
                     </div>
                 </div>
               </div>
-              <input type="text" 
-              placeholder="Username"
-              name="username"
-              value={this.state.username}
-              onChange={this.handleChange}
-              />
-              <input type="password" 
-              placeholder="Password"
-              name="password"
-              value={this.state.password}
-              onChange={this.handleChange}
-              />
-              <button type="submit" className="btn" disabled={this.state.loading}>Login</button>
-              {this.state.loading ? <img src="https://i.postimg.cc/6QyYqz2V/loading-angelfish.gif" /> :  <div className="spacer" />}
-              <p>{this.state.error}</p>
-              <h3>Don't have an account?</h3>
-              <Link to="/sign-up"><button className="btn" >Sign Up</button></Link>
+              <div className="login-form-wrapper">
+                <input type="text" 
+                placeholder="Username"
+                name="username"
+                value={this.state.username}
+                onChange={this.handleChange}
+                />
+                <input type="password" 
+                placeholder="Password"
+                name="password"
+                value={this.state.password}
+                onChange={this.handleChange}
+                />
+                <button type="submit" className="btn" disabled={this.state.loading}>Login</button>
+                {this.state.loading ? <img src="https://i.postimg.cc/6QyYqz2V/loading-angelfish.gif" /> :  <div className="spacer" />}
+                <p>{this.state.error}</p>
+                <h3>Don't have an account?</h3>
+                <Link to="/sign-up"><button className="btn" >Sign Up</button></Link>
+              </div>
               <Footer />
             </form>
         )
