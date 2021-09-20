@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Cookies from 'js-cookie';
 import Footer from './footer';
+import { Link } from "react-router-dom";
 
 export default class SignupForm extends Component {
     constructor(props) {
@@ -101,42 +102,44 @@ export default class SignupForm extends Component {
                     </div>
                 </div>
               </div>
-                <input type="text" 
-                placeholder="Username"
-                name="username"
-                value={this.state.username}
-                onChange={this.handleChange}
-                />
-                <input type="password" 
-                placeholder="Password"
-                name="password"
-                value={this.state.password}
-                onChange={this.handleChange}
-                />
-                <input type="password" 
-                placeholder="Confirm Password"
-                name="passwordConfirm"
-                value={this.state.passwordConfirm}
-                onChange={this.handleChange}
-                />
-                <input type="text" 
-                placeholder="Full Name"
-                name="name"
-                value={this.state.name}
-                onChange={this.handleChange}
-                />
-                <input type="text" 
-                placeholder="Full Address"
-                name="address"
-                value={this.state.address}
-                onChange={this.handleChange}
-                />
-              <button type="submit" className="btn" disabled={this.state.loading}>Sign Up</button>
-              {this.state.loading ? <img src="https://i.postimg.cc/6QyYqz2V/loading-angelfish.gif" /> :  <div className="spacer" />}
-              <p>{this.state.error}</p>
-              <p>Have an account?</p>
-              <button className="btn" onClick={() => props.history.push("/login-form")}>Login</button>
-              <Footer />
+                <div className="login-form-wrapper">
+                  <input type="text" 
+                  placeholder="Username"
+                  name="username"
+                  value={this.state.username}
+                  onChange={this.handleChange}
+                  />
+                  <input type="password" 
+                  placeholder="Password"
+                  name="password"
+                  value={this.state.password}
+                  onChange={this.handleChange}
+                  />
+                  <input type="password" 
+                  placeholder="Confirm Password"
+                  name="passwordConfirm"
+                  value={this.state.passwordConfirm}
+                  onChange={this.handleChange}
+                  />
+                  <input type="text" 
+                  placeholder="Full Name"
+                  name="name"
+                  value={this.state.name}
+                  onChange={this.handleChange}
+                  />
+                  <input type="text" 
+                  placeholder="Full Address"
+                  name="address"
+                  value={this.state.address}
+                  onChange={this.handleChange}
+                  />
+                <button type="submit" className="btn" disabled={this.state.loading}>Sign Up</button>
+                {this.state.loading ? <img src="https://i.postimg.cc/6QyYqz2V/loading-angelfish.gif" /> :  <div className="spacer" />}
+                <p>{this.state.error}</p>
+                <p>Have an account?</p>
+                <Link to="/login-form"><button className="btn" >Log In/Sign Up</button></Link>
+                <Footer />
+              </div>
             </form>
         )
     }
