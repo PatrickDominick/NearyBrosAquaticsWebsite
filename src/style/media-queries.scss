@@ -6,9 +6,7 @@
         width: 87vw;
 
         .left-column {
-            order: 2;
-            margin-top: 10px;
-            margin-bottom: 15px;
+            display: none;
         }
 
         .center-column {
@@ -26,8 +24,7 @@
         }
 
         .right-column {
-            order: 3;
-            margin-top: 15px;
+            display: none;
         }
     }
 
@@ -36,6 +33,7 @@
         height: 20px;
         width: 75vw;
         align-items: flex-start;
+        margin-left: -25px;
 
         .nav-link {
             margin-top: 10px;
@@ -109,6 +107,8 @@
 
                 .links-wrapper {
                     justify-content: space-around;
+                    width: 80vw;
+                    margin-left: -30px;
 
                     .nav-link {
 
