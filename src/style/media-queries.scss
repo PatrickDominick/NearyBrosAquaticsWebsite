@@ -105,9 +105,10 @@
             .columns-wrapper {
                 margin: 0px;
                 justify-content: none;
+                width: 20vw;
 
                 .column {
-                    margin: 0px !important;
+                    margin: 2px !important;
 
                     &:nth-child(1) {
                         font-size: 18px !important;
