@@ -33,6 +33,7 @@
             .heading-wrapper {
                 background-color: $primaryDark;
                 color: $secondaryDark;
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
                 border-bottom-left-radius: 2px;
                 border-bottom-right-radius: 2px;
                 width: 175px;
