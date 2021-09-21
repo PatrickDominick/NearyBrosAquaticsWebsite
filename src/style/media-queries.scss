@@ -14,7 +14,7 @@
         .navigation-wrapper {
             flex-direction: column;
             align-items: center;
-            height: 60vh;
+            height: 25vh;
             width: 87vw;
             padding-top: 10px;
     
@@ -88,11 +88,13 @@
         .fish-section {
             padding: 50px 10px;
             width: 85vw;
+            background-attachment: none;
 
             .top-heading {
 
                 h1 {
                     font-size: 25px;
+                    width: 33vw;
                 }
             }
 
@@ -100,6 +102,7 @@
 
                 h1 {
                     font-size: 25px;
+                    width: 33vw;
                 }
             }
         }
@@ -130,11 +133,22 @@
     }   
     
     .map {
-        width: 85vw;
+        width: 85vw !important;
     }
     
     .footer {
         height: 25%;
+
+        .logo {
+            height: none;
+            width: 97vw;
+        }
+
+        .footer-phone-hours {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
         .links-wrapper {
             margin-right: 180px;
@@ -142,6 +156,12 @@
 
         .social-media-icons-wrapper {
             margin-top: 15px;
+        }
+
+        .copyright-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
 
@@ -161,6 +181,7 @@
 
                         a {
                             margin-left: -100px;
+                            width: 93vw;
                         }
                     }
                 }
