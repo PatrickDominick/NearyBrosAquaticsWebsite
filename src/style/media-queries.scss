@@ -1,27 +1,12 @@
 @media (max-width: 615px) {
    
 
-    .links-wrapper {
-        margin-bottom: 20px;
-        height: 20px;
-        width: 75vw;
-        align-items: flex-start;
-
-        .nav-link {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            font-size: 1.5em;
-            width: 50%;
-            margin-left: 2px;
-            margin-right: 2px;
-
-
-            a {
-                width: 20vw;
-                font-size: 20px;
-            }
-        }
+    .app-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+    
     .home-wrapper {
 
         .navigation-wrapper {
