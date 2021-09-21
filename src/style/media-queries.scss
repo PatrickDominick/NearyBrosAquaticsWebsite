@@ -1,12 +1,16 @@
 @media (max-width: 615px) {
 
     .home-wrapper {
+        display: flex;
+        flex-direction: center;
+        align-items: center;
 
         .navigation-wrapper {
             flex-direction: column;
             align-items: center;
             height: 60vh;
             width: 87vw;
+            padding-top: 10px;
     
             .left-column {
                 order: 2;
@@ -82,14 +86,14 @@
             .top-heading {
 
                 h1 {
-                    font-size: 12px;
+                    font-size: 25px;
                 }
             }
 
             .bottom-heading {
 
                 h1 {
-                    font-size: 12px;
+                    font-size: 25px;
                 }
             }
         }
@@ -108,7 +112,8 @@
                     margin: 2px !important;
 
                     &:nth-child(1) {
-                        font-size: 18px !important;
+                        font-size: 15px !important;
+                        height: 33vh;
                     }
                 }
 
