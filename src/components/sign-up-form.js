@@ -136,8 +136,8 @@ export default class SignupForm extends Component {
                 <button type="submit" className="btn" disabled={this.state.loading}>Sign Up</button>
                 {this.state.loading ? <img src="https://i.postimg.cc/6QyYqz2V/loading-angelfish.gif" /> :  <div className="spacer" />}
                 <p>{this.state.error}</p>
-                <p>Have an account?</p>
-                <Link to="/login-form"><button className="btn" >Log In/Sign Up</button></Link>
+                <h3>Have an account?</h3>
+                <Link to="/login-form"><button className="btn" >Log In</button></Link>
               </div>
                 <Footer />
             </form>
