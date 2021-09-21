@@ -10,6 +10,14 @@
             margin-top: 10px;
             margin-bottom: 15px;
 
+            .contact-hours-wrapper {
+                display: none;
+            }
+
+            .icon {
+                display: none;
+            }
+
         }
 
         .center-column {
@@ -29,6 +37,14 @@
         .right-column {
             order: 3;
             margin-top: 15px;
+
+            .address-wrapper {
+                display: none;
+            }
+
+            .contact-icon {
+                display: none;
+            }
         }
     }
 
@@ -60,7 +76,6 @@
             height: 20px;
             width: 75vw !important;
             align-items: flex-start;
-            margin-left: -100px;
 
             .nav-link {
                 margin-top: 10px;
@@ -81,6 +96,7 @@
 
         .fish-section {
             padding: 50px 10px;
+            width: 85vw;
 
             .top-heading {
 
@@ -100,7 +116,7 @@
         .features-section {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            width: 90vw;
+            width: 85vw;
 
             .columns-wrapper {
                 margin: 0px;
@@ -119,10 +135,18 @@
 
         }
         
-    }    
+    }   
+    
+    .map {
+        width: 85vw;
+    }
     
     .footer {
         height: 25%;
+
+        .social-media-icons-wrapper {
+            margin-top: 15px;
+        }
     }
 
     .skewed-header {
