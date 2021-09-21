@@ -4,7 +4,7 @@ export default function footer (props) {
     return (
         <div className="footer">
                 <div className="logo">
-                    <img src="https://i.postimg.cc/134ybytX/Logo-name-larger.png" alt="Logo"/>
+                    <img src="https://i.postimg.cc/Qd1YbJVj/Logo-name-cropped.png" alt="Logo"/>
                 </div>
 
                 <div className="footer-phone-hours">

@@ -49,7 +49,7 @@ export default function contact(props) {
                 <div className="contact-grid-wrapper">
                     <div className="company-metadata-sidebar-wrapper">
                         <div className="logo">
-                            <img src="https://i.postimg.cc/134ybytX/Logo-name-larger.png" alt="logo"/>
+                            <img src="https://i.postimg.cc/Qd1YbJVj/Logo-name-cropped.png" alt="logo"/>
                         </div>
                                     
                         <div className="company-details-wrapper">

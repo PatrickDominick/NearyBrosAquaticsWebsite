@@ -24,7 +24,7 @@ export default function home(props) {
 
                 <div className="center-column">
                     <div className="banner-image">
-                        <img src="https://i.postimg.cc/134ybytX/Logo-name-larger.png" alt="logo" />
+                        <img src="https://i.postimg.cc/Qd1YbJVj/Logo-name-cropped.png" alt="logo" />
                     </div>
                     <div className="links-wrapper">
                     
