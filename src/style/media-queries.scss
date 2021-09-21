@@ -95,7 +95,7 @@
                 h1 {
                     font-size: 25px;
                     width: 33vw;
-                    background: none;
+                    background-color: transparent !important;
                 }
             }
 
@@ -104,7 +104,7 @@
                 h1 {
                     font-size: 25px;
                     width: 33vw;
-                    background: none;
+                    background: transparent !important;
                 }
             }
         }
@@ -153,7 +153,6 @@
         }
 
         .links-wrapper {
-            margin-right: 180px;
         }
 
         .social-media-icons-wrapper {
@@ -168,6 +167,7 @@
     }
 
     .skewed-header {
+        height: 40vh;
 
         .skewed-header-wrapper {
 
@@ -180,10 +180,8 @@
                     width: 80vw;
 
                     .nav-link {
+                        width: 85vw;
 
-                        a {
-                            width: 93vw;
-                        }
                     }
                 }
             }
@@ -216,6 +214,11 @@
 
         .img-wrapper {
             order: 2;
+
+            img {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
         }
     }
 
