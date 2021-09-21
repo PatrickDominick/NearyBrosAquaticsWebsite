@@ -35,15 +35,13 @@
     
             .center-column {
                 order: 1;
-                width: 100vw !important;
+                width: 100vw;
     
                 .banner-image {
-                    width: 80vw !important;
                     margin-bottom: auto;
                     
                     img {
-                        width: 60vw !important;
-                        margin-left: auto;
+                        width: 100vw;
                     }
                 }
             }
