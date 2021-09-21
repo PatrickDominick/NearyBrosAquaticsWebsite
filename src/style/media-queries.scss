@@ -1,31 +1,6 @@
 @media (max-width: 615px) {
     .navigation-wrapper {
-        flex-direction: column;
-        align-items: center;
-        height: 20%;
-        width: 87vw;
-
-        .left-column {
-            display: none;
-        }
-
-        .center-column {
-            order: 1;
-            width: 100vw !important;
-
-            .banner-image {
-                width: 80vw !important;
-                
-                img {
-                    width: 60vw !important;
-                    align-items: center;
-                }
-            }
-        }
-
-        .right-column {
-            display: none;
-        }
+        display: none
     }
 
     .links-wrapper {
@@ -33,7 +8,7 @@
         height: 20px;
         width: 75vw !important;
         align-items: flex-start;
-        margin-left: -25px;
+        margin-left: -100px;
 
         .nav-link {
             margin-top: 10px;
@@ -51,6 +26,30 @@
         }
     }
     .home-wrapper {
+
+        .links-wrapper {
+            margin-bottom: 20px;
+            height: 20px;
+            width: 75vw !important;
+            align-items: flex-start;
+            margin-left: -100px;
+
+            .nav-link {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 1.5em;
+                width: 50%;
+                margin-left: 2px;
+                margin-right: 2px;
+    
+    
+                a {
+                    width: 20vw;
+                    font-size: 20px;
+                }
+            }
+            
+        }
 
         .fish-section {
             padding: 50px 10px;
@@ -95,6 +94,7 @@
     
     .footer {
         height: 25%;
+        
     }
 
     .skewed-header {
