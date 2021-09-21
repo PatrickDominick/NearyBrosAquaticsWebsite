@@ -2,7 +2,7 @@
 
     .app-wrapper {
         width: 100vw;
-        padding: none;
+        padding: 0px;
     }
 
     .home-wrapper {
@@ -39,10 +39,11 @@
     
                 .banner-image {
                     width: 80vw !important;
+                    margin-bottom: auto;
                     
                     img {
                         width: 60vw !important;
-                        align-items: center;
+                        margin-left: auto;
                     }
                 }
             }
@@ -69,7 +70,6 @@
             margin-right: 40px;
 
             .nav-link {
-                margin-top: 10px;
                 margin-bottom: 10px;
                 font-size: 1.5em;
                 width: 50%;
@@ -95,6 +95,7 @@
                 h1 {
                     font-size: 25px;
                     width: 33vw;
+                    background: none;
                 }
             }
 
@@ -103,6 +104,7 @@
                 h1 {
                     font-size: 25px;
                     width: 33vw;
+                    background: none;
                 }
             }
         }
@@ -180,7 +182,6 @@
                     .nav-link {
 
                         a {
-                            margin-left: -100px;
                             width: 93vw;
                         }
                     }
