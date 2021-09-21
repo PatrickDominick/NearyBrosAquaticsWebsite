@@ -4,12 +4,14 @@ h1, h2, h3, h4, h5, h6 {
 
 li {
     color: white;
+    text-shadow: none;
 }
 
 .navigation-wrapper {
     height: 190px;
     background-color: $primaryDark;
     color:$secondaryDark;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     /* Flexbox container */
     display: flex;
     Justify-content: space-between;
@@ -36,6 +38,7 @@ li {
             .hours {
                 font-family: 'Ubuntu Condensed', sans-serif;
                 color: $secondaryDark;
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
                 font-size: 0.8em;
                 font-weight: bolder;
             }
@@ -69,6 +72,7 @@ li {
 
             a {
                 color: $secondaryDark;
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
                 text-decoration: none;
                 font-size: 0.9em;
                 transition: 0.5s;
@@ -87,6 +91,7 @@ li {
 
             a {
                 color: $secondaryDark;
+                text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
                 transition: 0.5s;
                 font-weight: bolder;
 
@@ -112,6 +117,7 @@ li {
         a {
             font-family: 'Ubuntu Condensed', sans-serif;
             color: $secondaryDark;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
             text-decoration: none;
             transition: 0.5s;
 
