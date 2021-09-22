@@ -53,7 +53,7 @@
                 border-radius: 10px;
                 transition: 1s;
                 background: transparentize($color: $lightGreen, $amount: .2);
-                height: 110vh;
+                height: fit-content;
 
                 a {
                     font-family: 'Ubuntu Condensed', sans-serif;
