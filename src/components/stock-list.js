@@ -72,8 +72,12 @@ export default function stockList(props) {
 
                             <ul>
                                 <li>$1 Assassin Snail shipping available</li>
-                                <li>$1 Cherry Shrimp shipping available</li>
-                                <li>$4 Blue Neo Shrimp</li>
+                                <li>
+                                    <a href="https://youtu.be/kwTaRovS3-g" target="_blank">$1 Cherry Shrimp shipping available</a>
+                                </li>
+                                <li>
+                                    <a href="https://youtu.be/kwTaRovS3-g" target="_blank">$4 Blue Neo Shrimp</a>
+                                </li>
                                 <li>Scuds free to in-person customers</li>
                                 <li>Pond, mts, ramhorn snails free to in-person customers</li>
                             </ul>

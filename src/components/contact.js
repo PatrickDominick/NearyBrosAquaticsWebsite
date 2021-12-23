@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import emailjs from "emailjs-com"
 import Footer from './footer';
 
@@ -11,6 +11,16 @@ export default function contact(props) {
             console.log(result.text); window.location.reload()
         }).catch(error => console.log("You have an error in user message submit" , error))
     }
+
+    // const [name, setName] = useState("");
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     if (name === "") {
+    //         ({error: "Please fill out form"})
+    //     }
+    //     else
+    // }
+
     return (
         <div className="contact-wrapper">
             <div className="skewed-header">
